@@ -8,7 +8,7 @@ export default function Home() {
     <div className=" gap-6 bg-indigo-950 h-full">
       <header className="flex justify-center p-5 bg-gray-900 mb-6">
         <h1 className="text-amber-200 text-4xl">Axel BOULANGER</h1>
-        <SidebarButon icon="panel-left.svg" />
+
         <NetworkLink
           logo="linkedin.svg"
           link="https://www.linkedin.com/in/axel-boulanger-5058b33a5/?isSelfProfile=true"
@@ -43,41 +43,51 @@ export default function Home() {
             nom="Jeu Godot"
             description="Jeu de combat 2D développé avec Godot et C#."
             image="gd.jpeg"
+            tag="GdScript"
+          />
+
+          <ProjectCard
+            nom="Biosphere 7"
+            description="Projet étudiant consistant à développer un jeu de plateau inspiré des échecs, avec des règles originales, puis à concevoir des intelligences artificielles pour participer à une compétition étudiante."
+            image="biosphere.png"
+            tag="java"
+          />
+          <ProjectCard
+            nom="Site web de Rétro-PC Dépannage"
+            description="Refonte du site web de Rétro-PC Dépannage, spécialisé dans la réparation et la remise en état d’anciens ordinateurs."
+            image="gd.jpeg"
+            tag="HTML CSS vscode"
+          />
+
+          <ProjectCard
+            nom="Conception d’une base de données"
+            description="Projet étudiant consacré à la conception d’un modèle conceptuel de données (MCD), à la création d’une base de données et à son alimentation."
+            image="gd.jpeg"
+            tag="SQL SSMS"
           />
           <ProjectCard
             nom="Jeu Godot"
             description="Jeu de combat 2D développé avec Godot et C#."
             image="gd.jpeg"
+            tag="caca pipi smegma"
           />
           <ProjectCard
             nom="Jeu Godot"
             description="Jeu de combat 2D développé avec Godot et C#."
             image="gd.jpeg"
+            tag="caca pipi smegma"
           />
           <ProjectCard
             nom="Jeu Godot"
             description="Jeu de combat 2D développé avec Godot et C#."
             image="gd.jpeg"
+            tag="caca pipi smegma"
           />
           <ProjectCard
             nom="Jeu Godot"
             description="Jeu de combat 2D développé avec Godot et C#."
             image="gd.jpeg"
-          />
-          <ProjectCard
-            nom="Jeu Godot"
-            description="Jeu de combat 2D développé avec Godot et C#."
-            image="gd.jpeg"
-          />
-          <ProjectCard
-            nom="Jeu Godot"
-            description="Jeu de combat 2D développé avec Godot et C#."
-            image="gd.jpeg"
-          />
-          <ProjectCard
-            nom="Jeu Godot"
-            description="Jeu de combat 2D développé avec Godot et C#."
-            image="gd.jpeg"
+            tag="caca pipi smegma"
           />
         </div>
       </main>
