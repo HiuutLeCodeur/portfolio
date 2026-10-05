@@ -43,7 +43,7 @@ export default function Home() {
             nom="Jeu Godot"
             description="Jeu de combat 2D développé avec Godot et C#."
             image="gd.jpeg"
-            tag="GdScript"
+            tag="GdScript pipi"
           />
 
           <ProjectCard
